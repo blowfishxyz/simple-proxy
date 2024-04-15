@@ -1,6 +1,6 @@
 # Simple Proxy for Blowfish API
 
-This Docker image provides an Nginx setup that acts as a reverse proxy, with rate limiting and the ability to add a custom header to all requests. The target of the proxy and the value of the custom header can be configured using environment variables.
+This Docker image provides an Nginx setup that acts as a reverse proxy, with rate limiting and the ability to add a custom header to all requests. It can be used by wallet customers to prevent user IP addresses from being sent to Blowfish and to avoid exposing their API key to clients. The target of the proxy and the value of the custom header can be configured using environment variables.
 
 ## Features
 - Acts as a reverse proxy to a backend service.
